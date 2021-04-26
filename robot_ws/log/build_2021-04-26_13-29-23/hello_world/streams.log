@@ -1,0 +1,21 @@
+[1.811s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/hello_world/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/hello_world/install.log --single-version-externally-managed
+[2.206s] running egg_info
+[2.207s] writing ../../build/hello_world/hello_world.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../build/hello_world/hello_world.egg-info/dependency_links.txt
+[2.208s] writing entry points to ../../build/hello_world/hello_world.egg-info/entry_points.txt
+[2.208s] writing requirements to ../../build/hello_world/hello_world.egg-info/requires.txt
+[2.208s] writing top-level names to ../../build/hello_world/hello_world.egg-info/top_level.txt
+[2.274s] reading manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[2.277s] writing manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[2.277s] running build
+[2.277s] running build_py
+[2.278s] running install
+[2.280s] running install_lib
+[2.282s] running install_data
+[2.283s] running install_egg_info
+[2.286s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages/hello_world-0.0.0-py3.8.egg-info' (and everything under it)
+[2.287s] Copying ../../build/hello_world/hello_world.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages/hello_world-0.0.0-py3.8.egg-info
+[2.289s] running install_scripts
+[2.320s] Installing hello_world script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/hello_world
+[2.320s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/hello_world/install.log'
+[2.411s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/hello_world/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/hello_world/install.log --single-version-externally-managed

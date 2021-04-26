@@ -1,0 +1,21 @@
+[1.786s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log --single-version-externally-managed
+[2.205s] running egg_info
+[2.205s] writing ../../build/rqt_joy/rqt_joy.egg-info/PKG-INFO
+[2.206s] writing dependency_links to ../../build/rqt_joy/rqt_joy.egg-info/dependency_links.txt
+[2.206s] writing requirements to ../../build/rqt_joy/rqt_joy.egg-info/requires.txt
+[2.206s] writing top-level names to ../../build/rqt_joy/rqt_joy.egg-info/top_level.txt
+[2.259s] reading manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.261s] running build
+[2.261s] running build_py
+[2.262s] running build_scripts
+[2.262s] running install
+[2.264s] running install_lib
+[2.266s] running install_data
+[2.267s] running install_egg_info
+[2.270s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info' (and everything under it)
+[2.273s] Copying ../../build/rqt_joy/rqt_joy.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info
+[2.275s] running install_scripts
+[2.310s] changing mode of /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/bin/rqt_joy to 755
+[2.312s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log'
+[2.399s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log --single-version-externally-managed

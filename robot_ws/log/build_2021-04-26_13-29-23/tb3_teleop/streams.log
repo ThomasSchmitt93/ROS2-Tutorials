@@ -1,0 +1,21 @@
+[1.807s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/tb3_teleop/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed
+[2.214s] running egg_info
+[2.216s] writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO
+[2.216s] writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt
+[2.216s] writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt
+[2.216s] writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt
+[2.217s] writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt
+[2.307s] reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[2.307s] writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[2.308s] running build
+[2.308s] running build_py
+[2.308s] running install
+[2.309s] running install_lib
+[2.310s] running install_data
+[2.312s] running install_egg_info
+[2.318s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop-0.0.0-py3.8.egg-info' (and everything under it)
+[2.318s] Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop-0.0.0-py3.8.egg-info
+[2.318s] running install_scripts
+[2.349s] Installing teleop script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/tb3_teleop
+[2.349s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/tb3_teleop/install.log'
+[2.405s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/tb3_teleop/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed
