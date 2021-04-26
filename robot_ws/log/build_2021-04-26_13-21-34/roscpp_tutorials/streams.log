@@ -1,0 +1,37 @@
+[0.071s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/roscpp_tutorials
+[1.487s] -- The C compiler identification is GNU 9.3.0
+[1.487s] -- The CXX compiler identification is GNU 9.3.0
+[1.487s] -- Check for working C compiler: /usr/bin/cc
+[1.488s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.488s] -- Detecting C compiler ABI info
+[1.488s] -- Detecting C compiler ABI info - done
+[1.488s] -- Detecting C compile features
+[1.489s] -- Detecting C compile features - done
+[1.489s] -- Check for working CXX compiler: /usr/bin/c++
+[1.489s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.489s] -- Detecting CXX compiler ABI info
+[1.489s] -- Detecting CXX compiler ABI info - done
+[1.492s] -- Detecting CXX compile features
+[1.492s] -- Detecting CXX compile features - done
+[1.492s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time thread 
+[1.492s] -- Configuring incomplete, errors occurred!
+[1.493s] See also "/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials/CMakeFiles/CMakeOutput.log".
+[1.493s] See also "/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials/CMakeFiles/CMakeError.log".
+[1.494s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.494s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.494s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.494s]   CMake did not find one.
+[1.495s] 
+[1.495s]   Could not find a package configuration file provided by "catkin" with any
+[1.495s]   of the following names:
+[1.495s] 
+[1.496s]     catkinConfig.cmake
+[1.496s]     catkin-config.cmake
+[1.496s] 
+[1.496s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.497s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.497s]   provides a separate development package or SDK, be sure it has been
+[1.497s]   installed.
+[1.497s] 
+[1.498s] 
+[1.507s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials' returned '1': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/roscpp_tutorials

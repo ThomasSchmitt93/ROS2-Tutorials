@@ -1,0 +1,22 @@
+[0.074s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/roscpp_tutorials
+[1.462s] -- Configuring incomplete, errors occurred!
+[1.463s] See also "/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials/CMakeFiles/CMakeOutput.log".
+[1.463s] See also "/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials/CMakeFiles/CMakeError.log".
+[1.463s] CMake Error at CMakeLists.txt:5 (find_package):
+[1.464s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.465s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.465s]   CMake did not find one.
+[1.465s] 
+[1.466s]   Could not find a package configuration file provided by "catkin" with any
+[1.466s]   of the following names:
+[1.466s] 
+[1.466s]     catkinConfig.cmake
+[1.466s]     catkin-config.cmake
+[1.467s] 
+[1.467s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.467s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.467s]   provides a separate development package or SDK, be sure it has been
+[1.468s]   installed.
+[1.468s] 
+[1.468s] 
+[1.476s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/roscpp_tutorials' returned '1': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/roscpp_tutorials

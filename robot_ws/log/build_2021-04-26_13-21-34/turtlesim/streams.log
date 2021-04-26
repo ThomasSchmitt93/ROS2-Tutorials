@@ -1,0 +1,35 @@
+[0.067s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/turtlesim': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/turtlesim
+[1.486s] CMake Error at CMakeLists.txt:4 (find_package):
+[1.486s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.487s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.487s]   CMake did not find one.
+[1.487s] 
+[1.487s]   Could not find a package configuration file provided by "catkin" with any
+[1.488s]   of the following names:
+[1.488s] 
+[1.488s]     catkinConfig.cmake
+[1.488s]     catkin-config.cmake
+[1.488s] 
+[1.489s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.489s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.489s]   provides a separate development package or SDK, be sure it has been
+[1.489s]   installed.
+[1.490s] 
+[1.490s] 
+[1.490s] -- The C compiler identification is GNU 9.3.0
+[1.490s] -- The CXX compiler identification is GNU 9.3.0
+[1.491s] -- Check for working C compiler: /usr/bin/cc
+[1.491s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.492s] -- Detecting C compiler ABI info
+[1.492s] -- Detecting C compiler ABI info - done
+[1.492s] -- Detecting C compile features
+[1.492s] -- Detecting C compile features - done
+[1.493s] -- Check for working CXX compiler: /usr/bin/c++
+[1.493s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.494s] -- Detecting CXX compiler ABI info
+[1.494s] -- Detecting CXX compiler ABI info - done
+[1.494s] -- Detecting CXX compile features
+[1.494s] -- Detecting CXX compile features - done
+[1.494s] -- Configuring incomplete, errors occurred!
+[1.495s] See also "/home/ubuntu/ROS2-Tutorials/robot_ws/build/turtlesim/CMakeFiles/CMakeOutput.log".
+[1.499s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/build/turtlesim' returned '1': /usr/bin/cmake /home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2-Tutorials/robot_ws/install/turtlesim

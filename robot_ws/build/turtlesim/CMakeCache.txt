@@ -42,6 +42,9 @@ BUILD_SHARED_LIBS:BOOL=ON
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
+//No help, variable specified on the command line.
+CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -368,6 +371,9 @@ ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for catkin.
+catkin_DIR:PATH=catkin_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr

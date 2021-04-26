@@ -1,5 +1,0 @@
-  File "/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/invert_gripper_service_client.py", line 10
-    SetBool.Request(data) = False
-    ^
-SyntaxError: cannot assign to function call
-

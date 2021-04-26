@@ -1,0 +1,21 @@
+[1.596s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/myfirstpackage build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/install.log --single-version-externally-managed
+[1.904s] running egg_info
+[1.905s] writing ../../build/myfirstpackage/myfirstpackage.egg-info/PKG-INFO
+[1.905s] writing dependency_links to ../../build/myfirstpackage/myfirstpackage.egg-info/dependency_links.txt
+[1.905s] writing entry points to ../../build/myfirstpackage/myfirstpackage.egg-info/entry_points.txt
+[1.906s] writing requirements to ../../build/myfirstpackage/myfirstpackage.egg-info/requires.txt
+[1.906s] writing top-level names to ../../build/myfirstpackage/myfirstpackage.egg-info/top_level.txt
+[1.960s] reading manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[1.961s] writing manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[1.961s] running build
+[1.962s] running build_py
+[1.962s] running install
+[1.962s] running install_lib
+[1.965s] running install_data
+[1.966s] running install_egg_info
+[1.968s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage-0.0.0-py3.8.egg-info' (and everything under it)
+[1.968s] Copying ../../build/myfirstpackage/myfirstpackage.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage-0.0.0-py3.8.egg-info
+[1.969s] running install_scripts
+[1.995s] Installing myfirstnode script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/myfirstpackage
+[1.995s] Installing param_node script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/myfirstpackage
+[1.995s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/install.log'
