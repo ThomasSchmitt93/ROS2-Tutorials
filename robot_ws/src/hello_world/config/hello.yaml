@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    text: Hello World
+    freq: 5
+    use_sim_time: false

@@ -1,0 +1,4 @@
+[console_scripts]
+myfirstpublisher = pubsub.publisher:main
+myfirstsubscriber = pubsub.sub:main
+

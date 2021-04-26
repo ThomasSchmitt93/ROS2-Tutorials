@@ -1,0 +1,22 @@
+[1.480s] Invoking command in '/home/ubuntu/robot_ws/src/pubsub': PYTHONPATH=/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/robot_ws/build/pubsub/build install --prefix /home/ubuntu/robot_ws/install/pubsub --record /home/ubuntu/robot_ws/build/pubsub/install.log --single-version-externally-managed
+[1.802s] running egg_info
+[1.803s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[1.803s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.803s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[1.804s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[1.804s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[1.855s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.856s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.857s] running build_py
+[1.858s] running install
+[1.858s] running install_lib
+[1.861s] running install_data
+[1.862s] running install_egg_info
+[1.865s] removing '/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.865s] Copying ../../build/pubsub/pubsub.egg-info to /home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[1.866s] running install_scripts
+[1.896s] Installing myfirstpublisher script to /home/ubuntu/robot_ws/install/pubsub/lib/pubsub
+[1.896s] Installing myfirstsubscriber script to /home/ubuntu/robot_ws/install/pubsub/lib/pubsub
+[1.898s] writing list of installed files to '/home/ubuntu/robot_ws/build/pubsub/install.log'
+[1.968s] Invoked command in '/home/ubuntu/robot_ws/src/pubsub' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/robot_ws/build/pubsub/build install --prefix /home/ubuntu/robot_ws/install/pubsub --record /home/ubuntu/robot_ws/build/pubsub/install.log --single-version-externally-managed

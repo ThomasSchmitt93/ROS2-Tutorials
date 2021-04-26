@@ -1,0 +1,22 @@
+[0.502s] Invoking command in '/home/ubuntu/robot_ws/src/hello_world': PYTHONPATH=/home/ubuntu/robot_ws/install/hello_world/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/ubuntu/robot_ws/build/hello_world/build install --prefix /home/ubuntu/robot_ws/install/hello_world --record /home/ubuntu/robot_ws/build/hello_world/install.log --single-version-externally-managed
+[0.750s] running egg_info
+[0.752s] writing ../../build/hello_world/hello_world.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/hello_world/hello_world.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/hello_world/hello_world.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/hello_world/hello_world.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/hello_world/hello_world.egg-info/top_level.txt
+[0.798s] reading manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[0.799s] writing manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.800s] running build_py
+[0.800s] running install
+[0.800s] running install_lib
+[0.802s] running install_data
+[0.802s] copying launch/hello.launch.py -> /home/ubuntu/robot_ws/install/hello_world/share/hello_world
+[0.803s] running install_egg_info
+[0.806s] removing '/home/ubuntu/robot_ws/install/hello_world/lib/python3.8/site-packages/hello_world-0.0.0-py3.8.egg-info' (and everything under it)
+[0.807s] Copying ../../build/hello_world/hello_world.egg-info to /home/ubuntu/robot_ws/install/hello_world/lib/python3.8/site-packages/hello_world-0.0.0-py3.8.egg-info
+[0.807s] running install_scripts
+[0.826s] Installing hello_world script to /home/ubuntu/robot_ws/install/hello_world/lib/hello_world
+[0.827s] writing list of installed files to '/home/ubuntu/robot_ws/build/hello_world/install.log'
+[0.855s] Invoked command in '/home/ubuntu/robot_ws/src/hello_world' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/hello_world/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hello_world build --build-base /home/ubuntu/robot_ws/build/hello_world/build install --prefix /home/ubuntu/robot_ws/install/hello_world --record /home/ubuntu/robot_ws/build/hello_world/install.log --single-version-externally-managed

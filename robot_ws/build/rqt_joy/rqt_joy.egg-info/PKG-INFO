@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: rqt-joy
+Version: 1.0.0
+Summary: rqt_joy provides a GUI plugin for a virtual joypad to control a robot using Joy messages.
+Home-page: UNKNOWN
+Author: Patrick Wiesen
+Maintainer: Patrick Wiesen
+Maintainer-email: wiesen@fh-aachen.de
+License: BSD
+Description: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

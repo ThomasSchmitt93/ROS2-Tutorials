@@ -1,0 +1,47 @@
+[1.466s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/myfirstpackage build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/install.log --single-version-externally-managed
+[1.730s] running egg_info
+[1.730s] creating ../../build/myfirstpackage/myfirstpackage.egg-info
+[1.730s] writing ../../build/myfirstpackage/myfirstpackage.egg-info/PKG-INFO
+[1.731s] writing dependency_links to ../../build/myfirstpackage/myfirstpackage.egg-info/dependency_links.txt
+[1.731s] writing entry points to ../../build/myfirstpackage/myfirstpackage.egg-info/entry_points.txt
+[1.731s] writing requirements to ../../build/myfirstpackage/myfirstpackage.egg-info/requires.txt
+[1.732s] writing top-level names to ../../build/myfirstpackage/myfirstpackage.egg-info/top_level.txt
+[1.733s] writing manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[1.775s] reading manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[1.776s] writing manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[1.777s] running build
+[1.777s] running build_py
+[1.777s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build
+[1.778s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib
+[1.778s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage
+[1.778s] copying myfirstpackage/param_node.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage
+[1.779s] copying myfirstpackage/myfirstnode.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage
+[1.779s] copying myfirstpackage/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage
+[1.779s] running install
+[1.779s] running install_lib
+[1.780s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage
+[1.781s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage/param_node.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage
+[1.781s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage/myfirstnode.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage
+[1.781s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build/lib/myfirstpackage/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage
+[1.782s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage/param_node.py to param_node.cpython-38.pyc
+[1.783s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage/myfirstnode.py to myfirstnode.cpython-38.pyc
+[1.784s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage/__init__.py to __init__.cpython-38.pyc
+[1.784s] running install_data
+[1.785s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/ament_index
+[1.785s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/ament_index/resource_index
+[1.785s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/ament_index/resource_index/packages
+[1.786s] copying resource/myfirstpackage -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/ament_index/resource_index/packages
+[1.786s] copying package.xml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.786s] copying launch/multi_turtle.launch.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] copying launch/turtle2.launch.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] copying launch/turtle.launch.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] copying config/turtlesim_random.yaml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] copying config/turtlesim_fh.yaml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] copying config/turtlesim.yaml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/share/myfirstpackage
+[1.787s] running install_egg_info
+[1.789s] Copying ../../build/myfirstpackage/myfirstpackage.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage-0.0.0-py3.8.egg-info
+[1.790s] running install_scripts
+[1.823s] Installing myfirstnode script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/myfirstpackage
+[1.823s] Installing param_node script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/myfirstpackage
+[1.824s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/install.log'
+[1.852s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/myfirstpackage build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/myfirstpackage/install.log --single-version-externally-managed

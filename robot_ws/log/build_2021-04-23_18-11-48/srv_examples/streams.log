@@ -1,0 +1,26 @@
+[1.496s] Invoking command in '/home/ubuntu/robot_ws/src/srv_examples': PYTHONPATH=/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/robot_ws/install/srv_examples --record /home/ubuntu/robot_ws/build/srv_examples/install.log --single-version-externally-managed
+[1.786s] running egg_info
+[1.787s] writing ../../build/srv_examples/srv_examples.egg-info/PKG-INFO
+[1.788s] writing dependency_links to ../../build/srv_examples/srv_examples.egg-info/dependency_links.txt
+[1.789s] writing entry points to ../../build/srv_examples/srv_examples.egg-info/entry_points.txt
+[1.789s] writing requirements to ../../build/srv_examples/srv_examples.egg-info/requires.txt
+[1.789s] writing top-level names to ../../build/srv_examples/srv_examples.egg-info/top_level.txt
+[1.836s] reading manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.838s] writing manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.838s] running build
+[1.838s] running build_py
+[1.840s] copying srv_examples/invert_gripper_service_client.py -> /home/ubuntu/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.840s] running install
+[1.840s] running install_lib
+[1.841s] copying /home/ubuntu/robot_ws/build/srv_examples/build/lib/srv_examples/invert_gripper_service_client.py -> /home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.842s] byte-compiling /home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/invert_gripper_service_client.py to invert_gripper_service_client.cpython-38.pyc
+[1.847s] running install_data
+[1.848s] running install_egg_info
+[1.851s] removing '/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples-0.0.0-py3.8.egg-info' (and everything under it)
+[1.851s] Copying ../../build/srv_examples/srv_examples.egg-info to /home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples-0.0.0-py3.8.egg-info
+[1.852s] running install_scripts
+[1.881s] Installing invert_gripper_service_client script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.881s] Installing open_gripper_service_server script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.882s] Installing turtlesim_geofence_reset_srv script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.882s] writing list of installed files to '/home/ubuntu/robot_ws/build/srv_examples/install.log'
+[1.952s] Invoked command in '/home/ubuntu/robot_ws/src/srv_examples' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/robot_ws/install/srv_examples --record /home/ubuntu/robot_ws/build/srv_examples/install.log --single-version-externally-managed

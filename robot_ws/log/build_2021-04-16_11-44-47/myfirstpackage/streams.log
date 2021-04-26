@@ -1,0 +1,22 @@
+[0.266s] Invoking command in '/home/ubuntu/robot_ws/src/myfirstpackage': PYTHONPATH=/home/ubuntu/robot_ws/install/myfirstpackage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/myfirstpackage build --build-base /home/ubuntu/robot_ws/build/myfirstpackage/build install --prefix /home/ubuntu/robot_ws/install/myfirstpackage --record /home/ubuntu/robot_ws/build/myfirstpackage/install.log --single-version-externally-managed
+[0.511s] running egg_info
+[0.512s] writing ../../build/myfirstpackage/myfirstpackage.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/myfirstpackage/myfirstpackage.egg-info/dependency_links.txt
+[0.512s] writing entry points to ../../build/myfirstpackage/myfirstpackage.egg-info/entry_points.txt
+[0.513s] writing requirements to ../../build/myfirstpackage/myfirstpackage.egg-info/requires.txt
+[0.513s] writing top-level names to ../../build/myfirstpackage/myfirstpackage.egg-info/top_level.txt
+[0.563s] reading manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[0.564s] writing manifest file '../../build/myfirstpackage/myfirstpackage.egg-info/SOURCES.txt'
+[0.564s] running build
+[0.565s] running build_py
+[0.565s] running install
+[0.566s] running install_lib
+[0.568s] running install_data
+[0.568s] copying launch/turtle.launch.py -> /home/ubuntu/robot_ws/install/myfirstpackage/share/myfirstpackage
+[0.569s] running install_egg_info
+[0.570s] removing '/home/ubuntu/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage-0.0.0-py3.8.egg-info' (and everything under it)
+[0.571s] Copying ../../build/myfirstpackage/myfirstpackage.egg-info to /home/ubuntu/robot_ws/install/myfirstpackage/lib/python3.8/site-packages/myfirstpackage-0.0.0-py3.8.egg-info
+[0.573s] running install_scripts
+[0.592s] Installing myfirstnode script to /home/ubuntu/robot_ws/install/myfirstpackage/lib/myfirstpackage
+[0.593s] writing list of installed files to '/home/ubuntu/robot_ws/build/myfirstpackage/install.log'
+[0.619s] Invoked command in '/home/ubuntu/robot_ws/src/myfirstpackage' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/myfirstpackage/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/myfirstpackage build --build-base /home/ubuntu/robot_ws/build/myfirstpackage/build install --prefix /home/ubuntu/robot_ws/install/myfirstpackage --record /home/ubuntu/robot_ws/build/myfirstpackage/install.log --single-version-externally-managed

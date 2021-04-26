@@ -1,0 +1,24 @@
+[1.479s] Invoking command in '/home/ubuntu/robot_ws/src/tb3_teleop': PYTHONPATH=/home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/ubuntu/robot_ws/build/tb3_teleop/build install --prefix /home/ubuntu/robot_ws/install/tb3_teleop --record /home/ubuntu/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed
+[1.807s] running egg_info
+[1.808s] writing ../../build/tb3_teleop/tb3_teleop.egg-info/PKG-INFO
+[1.808s] writing dependency_links to ../../build/tb3_teleop/tb3_teleop.egg-info/dependency_links.txt
+[1.808s] writing entry points to ../../build/tb3_teleop/tb3_teleop.egg-info/entry_points.txt
+[1.809s] writing requirements to ../../build/tb3_teleop/tb3_teleop.egg-info/requires.txt
+[1.809s] writing top-level names to ../../build/tb3_teleop/tb3_teleop.egg-info/top_level.txt
+[1.866s] reading manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[1.868s] writing manifest file '../../build/tb3_teleop/tb3_teleop.egg-info/SOURCES.txt'
+[1.869s] running build
+[1.870s] running build_py
+[1.870s] copying tb3_teleop/teleop.py -> /home/ubuntu/robot_ws/build/tb3_teleop/build/lib/tb3_teleop
+[1.870s] running install
+[1.870s] running install_lib
+[1.872s] copying /home/ubuntu/robot_ws/build/tb3_teleop/build/lib/tb3_teleop/teleop.py -> /home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop
+[1.872s] byte-compiling /home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop/teleop.py to teleop.cpython-38.pyc
+[1.873s] running install_data
+[1.874s] running install_egg_info
+[1.877s] removing '/home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop-0.0.0-py3.8.egg-info' (and everything under it)
+[1.878s] Copying ../../build/tb3_teleop/tb3_teleop.egg-info to /home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages/tb3_teleop-0.0.0-py3.8.egg-info
+[1.879s] running install_scripts
+[1.907s] Installing teleop script to /home/ubuntu/robot_ws/install/tb3_teleop/lib/tb3_teleop
+[1.907s] writing list of installed files to '/home/ubuntu/robot_ws/build/tb3_teleop/install.log'
+[1.986s] Invoked command in '/home/ubuntu/robot_ws/src/tb3_teleop' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/tb3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tb3_teleop build --build-base /home/ubuntu/robot_ws/build/tb3_teleop/build install --prefix /home/ubuntu/robot_ws/install/tb3_teleop --record /home/ubuntu/robot_ws/build/tb3_teleop/install.log --single-version-externally-managed

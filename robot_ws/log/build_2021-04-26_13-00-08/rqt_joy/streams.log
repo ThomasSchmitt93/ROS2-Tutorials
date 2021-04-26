@@ -1,0 +1,34 @@
+[1.650s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log --single-version-externally-managed
+[2.027s] running egg_info
+[2.028s] writing ../../build/rqt_joy/rqt_joy.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../../build/rqt_joy/rqt_joy.egg-info/dependency_links.txt
+[2.029s] writing requirements to ../../build/rqt_joy/rqt_joy.egg-info/requires.txt
+[2.029s] writing top-level names to ../../build/rqt_joy/rqt_joy.egg-info/top_level.txt
+[2.115s] reading manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.117s] writing manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.117s] running build
+[2.118s] running build_py
+[2.120s] copying src/rqt_joy/joy.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/lib/rqt_joy
+[2.120s] copying src/rqt_joy/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/lib/rqt_joy
+[2.120s] running build_scripts
+[2.121s] copying and adjusting scripts/rqt_joy -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/scripts-3.8
+[2.122s] running install
+[2.123s] running install_lib
+[2.124s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/lib/rqt_joy/joy.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy
+[2.125s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/lib/rqt_joy/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy
+[2.126s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy/joy.py to joy.cpython-38.pyc
+[2.128s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy/__init__.py to __init__.cpython-38.pyc
+[2.128s] running install_data
+[2.129s] copying resource/rqt_joy -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/share/ament_index/resource_index/packages
+[2.129s] copying resource/VirtualJoy.ui -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/share/rqt_joy/resource
+[2.130s] copying package.xml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/share/rqt_joy
+[2.130s] copying plugin.xml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/share/rqt_joy
+[2.131s] copying scripts/rqt_joy -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/rqt_joy
+[2.131s] running install_egg_info
+[2.135s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info' (and everything under it)
+[2.138s] Copying ../../build/rqt_joy/rqt_joy.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info
+[2.140s] running install_scripts
+[2.172s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build/scripts-3.8/rqt_joy -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/bin
+[2.173s] changing mode of /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/bin/rqt_joy to 755
+[2.177s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log'
+[2.288s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/rqt_joy/install.log --single-version-externally-managed

@@ -1,0 +1,14 @@
+package.xml
+plugin.xml
+setup.py
+../../build/rqt_joy/rqt_joy.egg-info/PKG-INFO
+../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt
+../../build/rqt_joy/rqt_joy.egg-info/dependency_links.txt
+../../build/rqt_joy/rqt_joy.egg-info/requires.txt
+../../build/rqt_joy/rqt_joy.egg-info/top_level.txt
+../../build/rqt_joy/rqt_joy.egg-info/zip-safe
+resource/VirtualJoy.ui
+resource/rqt_joy
+scripts/rqt_joy
+src/rqt_joy/__init__.py
+src/rqt_joy/joy.py

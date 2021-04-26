@@ -1,0 +1,48 @@
+[1.459s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/install.log --single-version-externally-managed
+[1.746s] running egg_info
+[1.747s] creating ../../build/srv_examples/srv_examples.egg-info
+[1.747s] writing ../../build/srv_examples/srv_examples.egg-info/PKG-INFO
+[1.748s] writing dependency_links to ../../build/srv_examples/srv_examples.egg-info/dependency_links.txt
+[1.748s] writing entry points to ../../build/srv_examples/srv_examples.egg-info/entry_points.txt
+[1.748s] writing requirements to ../../build/srv_examples/srv_examples.egg-info/requires.txt
+[1.749s] writing top-level names to ../../build/srv_examples/srv_examples.egg-info/top_level.txt
+[1.750s] writing manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.810s] reading manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.812s] writing manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.812s] running build
+[1.812s] running build_py
+[1.813s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build
+[1.813s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib
+[1.814s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.814s] copying srv_examples/turtlesim_geofence_reset_srv.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.815s] copying srv_examples/open_gripper_service_server.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.815s] copying srv_examples/invert_gripper_service_client.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.815s] copying srv_examples/invert_mark.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.815s] copying srv_examples/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples
+[1.816s] running install
+[1.816s] running install_lib
+[1.816s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples/turtlesim_geofence_reset_srv.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples/open_gripper_service_server.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples/invert_gripper_service_client.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples/invert_mark.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build/lib/srv_examples/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples
+[1.817s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/turtlesim_geofence_reset_srv.py to turtlesim_geofence_reset_srv.cpython-38.pyc
+[1.818s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/open_gripper_service_server.py to open_gripper_service_server.cpython-38.pyc
+[1.820s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/invert_gripper_service_client.py to invert_gripper_service_client.cpython-38.pyc
+[1.821s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/invert_mark.py to invert_mark.cpython-38.pyc
+[1.821s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples/__init__.py to __init__.cpython-38.pyc
+[1.821s] running install_data
+[1.821s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/share/ament_index
+[1.821s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/share/ament_index/resource_index
+[1.821s] creating /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/share/ament_index/resource_index/packages
+[1.821s] copying resource/srv_examples -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/share/ament_index/resource_index/packages
+[1.821s] copying package.xml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/share/srv_examples
+[1.821s] running install_egg_info
+[1.822s] Copying ../../build/srv_examples/srv_examples.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples-0.0.0-py3.8.egg-info
+[1.822s] running install_scripts
+[1.845s] Installing invert_gripper_service_client script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/srv_examples
+[1.845s] Installing open_gripper_service_server script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/srv_examples
+[1.848s] Installing turtlesim_geofence_reset_srv script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/srv_examples
+[1.848s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/install.log'
+[1.922s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/srv_examples/install.log --single-version-externally-managed

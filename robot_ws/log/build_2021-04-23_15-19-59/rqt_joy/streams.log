@@ -1,0 +1,21 @@
+[1.629s] Invoking command in '/home/ubuntu/robot_ws/src/rqt_joy': PYTHONPATH=/home/ubuntu/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/robot_ws/install/rqt_joy --record /home/ubuntu/robot_ws/build/rqt_joy/install.log --single-version-externally-managed
+[1.963s] running egg_info
+[1.964s] writing ../../build/rqt_joy/rqt_joy.egg-info/PKG-INFO
+[1.964s] writing dependency_links to ../../build/rqt_joy/rqt_joy.egg-info/dependency_links.txt
+[1.965s] writing requirements to ../../build/rqt_joy/rqt_joy.egg-info/requires.txt
+[1.965s] writing top-level names to ../../build/rqt_joy/rqt_joy.egg-info/top_level.txt
+[2.023s] reading manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.024s] writing manifest file '../../build/rqt_joy/rqt_joy.egg-info/SOURCES.txt'
+[2.025s] running build
+[2.025s] running build_py
+[2.025s] running build_scripts
+[2.026s] running install
+[2.027s] running install_lib
+[2.029s] running install_data
+[2.029s] running install_egg_info
+[2.033s] removing '/home/ubuntu/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info' (and everything under it)
+[2.033s] Copying ../../build/rqt_joy/rqt_joy.egg-info to /home/ubuntu/robot_ws/install/rqt_joy/lib/python3.8/site-packages/rqt_joy-1.0.0-py3.8.egg-info
+[2.035s] running install_scripts
+[2.064s] changing mode of /home/ubuntu/robot_ws/install/rqt_joy/bin/rqt_joy to 755
+[2.069s] writing list of installed files to '/home/ubuntu/robot_ws/build/rqt_joy/install.log'
+[2.151s] Invoked command in '/home/ubuntu/robot_ws/src/rqt_joy' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/rqt_joy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rqt_joy build --build-base /home/ubuntu/robot_ws/build/rqt_joy/build install --prefix /home/ubuntu/robot_ws/install/rqt_joy --record /home/ubuntu/robot_ws/build/rqt_joy/install.log --single-version-externally-managed

@@ -1,0 +1,21 @@
+[0.741s] Invoking command in '/home/ubuntu/robot_ws/src/pubsub': PYTHONPATH=/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/robot_ws/build/pubsub/build install --prefix /home/ubuntu/robot_ws/install/pubsub --record /home/ubuntu/robot_ws/build/pubsub/install.log --single-version-externally-managed
+[1.020s] running egg_info
+[1.020s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[1.021s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[1.022s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[1.022s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[1.074s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.076s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[1.077s] running build
+[1.077s] running build_py
+[1.077s] running install
+[1.079s] running install_lib
+[1.083s] running install_data
+[1.083s] running install_egg_info
+[1.087s] removing '/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[1.087s] Copying ../../build/pubsub/pubsub.egg-info to /home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[1.088s] running install_scripts
+[1.108s] Installing myfirstpublisher script to /home/ubuntu/robot_ws/install/pubsub/lib/pubsub
+[1.108s] writing list of installed files to '/home/ubuntu/robot_ws/build/pubsub/install.log'
+[1.133s] Invoked command in '/home/ubuntu/robot_ws/src/pubsub' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/robot_ws/build/pubsub/build install --prefix /home/ubuntu/robot_ws/install/pubsub --record /home/ubuntu/robot_ws/build/pubsub/install.log --single-version-externally-managed

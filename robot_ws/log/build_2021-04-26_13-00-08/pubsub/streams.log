@@ -1,0 +1,33 @@
+[1.654s] Invoking command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/install.log --single-version-externally-managed
+[2.035s] running egg_info
+[2.036s] writing ../../build/pubsub/pubsub.egg-info/PKG-INFO
+[2.037s] writing dependency_links to ../../build/pubsub/pubsub.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../../build/pubsub/pubsub.egg-info/entry_points.txt
+[2.037s] writing requirements to ../../build/pubsub/pubsub.egg-info/requires.txt
+[2.038s] writing top-level names to ../../build/pubsub/pubsub.egg-info/top_level.txt
+[2.111s] reading manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.113s] writing manifest file '../../build/pubsub/pubsub.egg-info/SOURCES.txt'
+[2.115s] running build
+[2.116s] running build_py
+[2.116s] copying pubsub/sub.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub
+[2.117s] copying pubsub/publisher.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub
+[2.118s] copying pubsub/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub
+[2.118s] running install
+[2.119s] running install_lib
+[2.122s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub/sub.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[2.123s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub/publisher.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[2.123s] copying /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build/lib/pubsub/__init__.py -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub
+[2.124s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub/sub.py to sub.cpython-38.pyc
+[2.126s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub/publisher.py to publisher.cpython-38.pyc
+[2.126s] byte-compiling /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub/__init__.py to __init__.cpython-38.pyc
+[2.127s] running install_data
+[2.132s] copying resource/pubsub -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/share/ament_index/resource_index/packages
+[2.132s] copying package.xml -> /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/share/pubsub
+[2.132s] running install_egg_info
+[2.134s] removing '/home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.136s] Copying ../../build/pubsub/pubsub.egg-info to /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages/pubsub-0.0.0-py3.8.egg-info
+[2.137s] running install_scripts
+[2.178s] Installing myfirstpublisher script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/pubsub
+[2.178s] Installing myfirstsubscriber script to /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/pubsub
+[2.179s] writing list of installed files to '/home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/install.log'
+[2.281s] Invoked command in '/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub' returned '0': PYTHONPATH=/home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pubsub build --build-base /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/build install --prefix /home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub --record /home/ubuntu/ROS2-Tutorials/robot_ws/build/pubsub/install.log --single-version-externally-managed

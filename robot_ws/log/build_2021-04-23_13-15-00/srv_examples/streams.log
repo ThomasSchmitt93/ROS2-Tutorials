@@ -1,0 +1,23 @@
+[1.479s] Invoking command in '/home/ubuntu/robot_ws/src/srv_examples': PYTHONPATH=/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/robot_ws/install/srv_examples --record /home/ubuntu/robot_ws/build/srv_examples/install.log --single-version-externally-managed
+[1.797s] running egg_info
+[1.798s] writing ../../build/srv_examples/srv_examples.egg-info/PKG-INFO
+[1.798s] writing dependency_links to ../../build/srv_examples/srv_examples.egg-info/dependency_links.txt
+[1.798s] writing entry points to ../../build/srv_examples/srv_examples.egg-info/entry_points.txt
+[1.799s] writing requirements to ../../build/srv_examples/srv_examples.egg-info/requires.txt
+[1.799s] writing top-level names to ../../build/srv_examples/srv_examples.egg-info/top_level.txt
+[1.852s] reading manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.853s] writing manifest file '../../build/srv_examples/srv_examples.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.854s] running build_py
+[1.854s] running install
+[1.855s] running install_lib
+[1.857s] running install_data
+[1.858s] running install_egg_info
+[1.861s] removing '/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples-0.0.0-py3.8.egg-info' (and everything under it)
+[1.861s] Copying ../../build/srv_examples/srv_examples.egg-info to /home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages/srv_examples-0.0.0-py3.8.egg-info
+[1.862s] running install_scripts
+[1.892s] Installing invert_gripper_service_client script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.894s] Installing open_gripper_service_server script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.895s] Installing turtlesim_geofence_reset_srv script to /home/ubuntu/robot_ws/install/srv_examples/lib/srv_examples
+[1.895s] writing list of installed files to '/home/ubuntu/robot_ws/build/srv_examples/install.log'
+[1.959s] Invoked command in '/home/ubuntu/robot_ws/src/srv_examples' returned '0': PYTHONPATH=/home/ubuntu/robot_ws/install/srv_examples/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srv_examples build --build-base /home/ubuntu/robot_ws/build/srv_examples/build install --prefix /home/ubuntu/robot_ws/install/srv_examples --record /home/ubuntu/robot_ws/build/srv_examples/install.log --single-version-externally-managed
