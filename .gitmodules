@@ -1,3 +1,7 @@
 [submodule "robot_ws/src/ros_tutorials"]
 	path = robot_ws/src/ros_tutorials
 	url = https://github.com/ros/ros_tutorials.git
+[submodule "robot_ws/src/joint_state_publisher"]
+	path = robot_ws/src/joint_state_publisher
+	url = https://github.com/ros/joint_state_publisher
+	branch = foxy

@@ -1,0 +1,173 @@
+[0.421s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ubuntu/ROS2-Tutorials/robot_ws/src']
+[0.421s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/ubuntu/ROS2-Tutorials/robot_ws/src'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fea806e06a0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fea806e06a0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fea805ddac0>)
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.470s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ROS2-Tutorials/robot_ws/src'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/hello_world' with type 'ros.ament_python' and name 'hello_world'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher' with type 'ros.ament_python' and name 'joint_state_publisher'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/joint_state_publisher/joint_state_publisher_gui' with type 'ros.ament_python' and name 'joint_state_publisher_gui'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/log) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/log) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/myfirstpackage' with type 'ros.ament_python' and name 'myfirstpackage'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/myrobottf' with type 'ros.ament_python' and name 'myrobottf'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/pubsub' with type 'ros.ament_python' and name 'pubsub'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'ros'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'cmake'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'python'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/ros_tutorials) ignored
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/rospy_tutorials) ignored
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extensions ['ros']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/rqt_joy' with type 'ros.ament_python' and name 'rqt_joy'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/srv_examples' with type 'ros.ament_python' and name 'srv_examples'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_description' with type 'ros.ament_python' and name 'tb3_description'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop) by extension 'ros'
+[0.527s] DEBUG:colcon.colcon_core.package_identification:Package '/home/ubuntu/ROS2-Tutorials/robot_ws/src/tb3_teleop' with type 'ros.ament_python' and name 'tb3_teleop'
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

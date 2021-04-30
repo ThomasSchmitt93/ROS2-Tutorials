@@ -1,4 +1,0 @@
-[console_scripts]
-myfirstnode = myfirstpackage.myfirstnode:main
-param_node = myfirstpackage.param_node:main
-

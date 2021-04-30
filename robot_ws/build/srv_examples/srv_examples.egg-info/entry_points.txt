@@ -1,5 +1,0 @@
-[console_scripts]
-invert_gripper_service_client = srv_examples.invert_gripper_service_client:main
-open_gripper_service_server = srv_examples.open_gripper_service_server:main
-turtlesim_geofence_reset_srv = srv_examples.turtlesim_geofence_reset_srv:main
-
