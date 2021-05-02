@@ -24,6 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'simulated_odom = myrobottf.simulated_odom:main',
+            'workshop_dynamic = myrobottf.workshop_dynamic:main',
         ],
     },
 )
