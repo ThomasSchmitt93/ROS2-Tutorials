@@ -27,6 +27,8 @@ setup(
         'console_scripts': [
             'myfirstnode = myfirstpackage.myfirstnode:main',
             'param_node = myfirstpackage.param_node:main',
+            'tf_listener = myfirstpackage.tf_listener:main',
+            'follower = myfirstpackage.follower:main',
         ],
     },
 )

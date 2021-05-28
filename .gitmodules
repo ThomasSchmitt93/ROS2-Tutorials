@@ -5,3 +5,20 @@
 	path = robot_ws/src/joint_state_publisher
 	url = https://github.com/ros/joint_state_publisher
 	branch = foxy
+[submodule "robot_ws/src/ros2_v4l2_camera"]
+	path = robot_ws/src/ros2_v4l2_camera
+	url = https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+	branch = foxy
+[submodule "robot_ws/src/image_pipeline"]
+	path = robot_ws/src/image_pipeline
+	url = https://github.com/ros-perception/image_pipeline
+	branch = ros2
+[submodule "robot_ws/src/ros2_usb_camera"]
+	path = robot_ws/src/ros2_usb_camera
+	url = https://github.com/klintan/ros2_usb_camera
+[submodule "robot_ws/src/apriltag_ros"]
+	path = robot_ws/src/apriltag_ros
+	url = https://github.com/christianrauch/apriltag_ros
+[submodule "robot_ws/src/apriltag_msgs"]
+	path = robot_ws/src/apriltag_msgs
+	url = https://github.com/christianrauch/apriltag_msgs
