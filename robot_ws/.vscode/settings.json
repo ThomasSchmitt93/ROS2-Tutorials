@@ -11,5 +11,18 @@
         "/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages",
         "/home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/joint_state_publisher_gui/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/joint_state_publisher/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/turtlesim/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/tb3_teleop/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/srv_examples/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/rqt_joy/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/pubsub/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/myrobottf/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/myfirstpackage/lib/python3.8/site-packages",
+        "/home/ubuntu/ROS2-Tutorials/robot_ws/install/hello_world/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
     ]
 }

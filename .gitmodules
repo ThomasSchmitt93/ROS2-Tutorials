@@ -22,3 +22,10 @@
 [submodule "robot_ws/src/apriltag_msgs"]
 	path = robot_ws/src/apriltag_msgs
 	url = https://github.com/christianrauch/apriltag_msgs
+[submodule "robot_ws/src/slam_toolbox"]
+	path = robot_ws/src/slam_toolbox
+	url = https://github.com/SteveMacenski/slam_toolbox
+[submodule "robot_ws/src/rqt_joy"]
+	path = robot_ws/src/rqt_joy
+	url = https://git.fh-aachen.de/Wiesen/rqt_joy
+	branch = eloquent-devel
