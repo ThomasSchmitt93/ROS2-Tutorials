@@ -15,10 +15,10 @@ def timercallback():
         trans_y = trans.transform.translation.y
         rot_z = trans.transform.rotation.z
         mymsg = String()
-        pub_string = 'Postion x = {}\nPostion y = {}\nRotation = {}\n'.format(trans_x,trans_y,rot_z) 
+        pub_string = 'Postion x = {}\nPostion y = {}\nRotation = {}\n'.format(trans_x,trans_y,rot_z)
         mymsg.data = pub_string
         current_pos_pub.publish(mymsg)
-        #print(trans_x) # print lookup transform
+        #print(trans) # print lookup transform
     except:
         # exception is raised on extrapolation, 
         # no connection between frames or when frames dont exist
